@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio formulario</title>
+</head>
+
+<body style="background-color:rgb(197, 163, 118) ;>
+	<h1>rellena este formulario</h1>
+	<form action="ejemplo.php" method="get">
+	<fieldset><legend><h1> Datos personales</h1></legend>
+		<p>Nombre: <input type="text" name="nombre" size="40" maxlength="15"></p>
+		<p>Apellidos: <input type="email" name="Apellidos" size="40" placeholder="sus dos apellidos" required></p>
+		<p>correo electronico <input type="text" name="Apellidos" size="40"></p>
+		<p>Año de nacimiento: <input type="number" name="nacido" min="1950" max="2022"></p>
+		<p>Contraseña: <input type="password" name="Contraseña" size="40"
+				placeholder="que contenga numeros y mayusculas"></p>
+		<p>archivo del dni <input type="file" name="dni" size="20" accept=".img"></p>
+		<p>
+		<h3>Sexo</h3>
+		<input type="radio" name="hm" value="h"> Hombre
+		<input type="radio" name="hm" value="m"> Mujer
+		<input type="radio" name="hm" value="m"> prefiero no decirlo
+		</p>
+		<p>
+		<h3>ciudad de residencia</h3>
+		<select name="option">
+			<optgroup label="andalucia">
+				<option>Almeria</option>
+				<option>granada</option>
+				<option>Sevilla</option>
+				<option>Jaen</option>
+				<option>Huelva</option>
+			</optgroup>
+			<optgroup label="cataluña">
+				<option>lleida</option>
+				<option>Barcelona</option>
+				<option>Tarragona</option>
+			</optgroup>
+			<optgroup label="comunidad de madrid">
+				<option>madrid</option>
+			</optgroup>
+			<optgroup label="castilla y leon">
+				<option>leon</option>
+				<option>Avila</option>
+				<option>Segovia</option>
+				<option>Zamora</option>
+				<option>Valladolid</option>
+			</optgroup>
+			<option selected>sin elegir</option>
+		</select>
+		</p>
+		<h3>Estudios</h3>
+		<input type="checkbox" name="ninguno"> ninguno
+		<input type="checkbox" name="ESO"> ESO
+		<input type="checkbox" name="bachiller o fp"> bachiller - fp
+		<input type="checkbox" name="carrera"> carrera
+	
+
+	</fieldset>
+		</p>
+		<button>
+			<img src="./" alt="indice" width="20" height="20" creado por la etiqueta button >
+		</button>
+		<p>Por si desea añadir un comentario:</p>
+		<p>
+			<textarea name="comentarios" aria-setsize="40" placeholder="escribe un comentario"></textarea>
+
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Borrar">
+		</p>
+	</form>
+
+
+
+
+</body>
+
+</html>
