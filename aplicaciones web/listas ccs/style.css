@@ -4,3 +4,19 @@ ol{
 ul{
     list-style-image:url("img/barco.png");
 }
+dd{
+    background-color: rgb(126, 179, 228);
+}
+dt{
+    background-color: rgb(130, 130, 160);
+    border-style: dotted;
+    border-color: rgb(110, 63, 9);
+    
+}
+dt.dt2{
+    border-color: aquamarine;
+    background-color: coral;
+}
+h3{
+    background-color: rgb(188, 240, 0);
+}
