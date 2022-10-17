@@ -47,3 +47,9 @@ p.foto{
     border-image-source: url("img/ventana.jpeg");
     border-image-slice: 27;
 }
+ul.l2{
+    list-style-type: decimal;
+    border: rgb(156, 145, 145) 10px solid;
+  border-image-source: url("/")
+  text-align: justify;
+}
