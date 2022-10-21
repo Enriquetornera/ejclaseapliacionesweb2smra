@@ -1,0 +1,18 @@
+header{
+border: 8px red solid;
+height: 10%;
+}
+nav{
+    border: 3px rgb(51, 37, 16) dotted;
+    height: 55%;
+}
+footer{
+    border: 6px rgb(69, 209, 123) double;
+    height: 35%;
+}
+li.menu{
+    list-style-type: none;
+    display: inline;
+    margin: 4px;
+    border: 5px rgb(184, 118, 19);
+}
