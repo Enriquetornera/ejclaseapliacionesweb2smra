@@ -1,7 +1,7 @@
 /* autor: Enrique Tornera Moya */
 header{
-    border: 10px rgba(0, 0, 0, 0.616) solid;
-    width: 35%;
+    border: 5px rgba(0, 0, 0, 0.616) double;
+    width: 45%;
 
 }
 header pre:first-child{
@@ -12,4 +12,12 @@ a:link{
 }
 a:visited{
     background-color: beige;
+}
+a:hover{
+    background-color: brown;
+    border: 10px green solid;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    color: azure;
 }
