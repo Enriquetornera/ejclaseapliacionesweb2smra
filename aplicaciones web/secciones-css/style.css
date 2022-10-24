@@ -1,6 +1,6 @@
 header{
 border: 8px red solid;
-height: 10%;
+height: 30%;
 }
 nav{
     border: 3px rgb(51, 37, 16) dotted;
@@ -14,5 +14,12 @@ li.menu{
     list-style-type: none;
     display: inline;
     margin: 4px;
-    border: 5px rgb(184, 118, 19);
+    border: 7px rgb(8, 87, 110) ridge;
+}
+div.logo{
+    display: flex;
+    height: 2cm;
+}
+ul{
+    display: inline;
 }

@@ -1,0 +1,15 @@
+/* autor: Enrique Tornera Moya */
+header{
+    border: 10px rgba(0, 0, 0, 0.616) solid;
+    width: 35%;
+
+}
+header pre:first-child{
+    color: rgb(141, 133, 28);
+}
+a:link{
+    background-color: rgb(114, 189, 199);
+}
+a:visited{
+    background-color: beige;
+}
