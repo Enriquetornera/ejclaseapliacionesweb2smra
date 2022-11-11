@@ -17,24 +17,29 @@ header{
     left: 50%;
     list-style-type: none;
     display: inline;
+    background-color: rgb(32, 32, 32);
+    
 
 
 }
 main{
     border: 3px black solid;
-    width: 50%;
-    left: 50%;
-    height: 190%;
+    width: 66%;
+    left: 60%;
+    height: 186%;
     position: relative;
     top: -28%;
+    
 }
 p.arriba{
     display: inline-block;
     margin: 7%;
-}
-p.pa{
-    
+    text text-shadow: color white : ;
 
+
+}
+body{
+    background-color: rgb(100, 100, 100);
 }
 
 
