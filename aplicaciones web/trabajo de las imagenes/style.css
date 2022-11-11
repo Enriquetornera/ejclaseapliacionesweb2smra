@@ -1,0 +1,51 @@
+nav.izquierda{
+    border: 2px black solid;
+    position: relative;
+    top:100px;
+    width: 100px;
+    height: 160px;
+    list-style-type: none;
+    line-height: 5px;
+    
+}
+header{
+    position: relative;
+    border: 2px black solid;
+    text-align: center;
+    line-height: 30px;
+    width: 50%;
+    left: 50%;
+    list-style-type: none;
+    display: inline;
+
+
+}
+main{
+    border: 3px black solid;
+    width: 50%;
+    left: 50%;
+    height: 190%;
+    position: relative;
+    top: -28%;
+}
+p.arriba{
+    display: inline-block;
+    margin: 7%;
+}
+p.pa{
+    
+
+}
+
+
+
+
+
+
+
+img.profile{
+    position: relative;
+    width: 25%;
+    left: 20%;
+
+}
