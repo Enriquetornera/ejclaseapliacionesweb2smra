@@ -1,0 +1,151 @@
+body.inicio {
+    background-image: url("./img/texturas-barcelona-min.jpg");
+    opacity: 0.9;
+}
+
+h1 {
+ color: rgb(225, 241, 81);
+ text-align: center;
+ text
+}
+header {
+    border: 10px rgb(153, 151, 151) groove;
+    height: 25%;
+    width: 99%;
+}
+a{
+   text-decoration: none;
+   color: rgb(155, 120, 68);
+   font-family: fantasy;
+   font-size: 40px;
+   
+}
+a:visited {
+    text-shadow: rgb(0, 0, 0) 7px 7px 5px;
+}
+a:hover{
+   
+    text-shadow: rgb(0, 0, 0) 7px 7px 5px;
+}
+
+p.arri{
+    color: azure;
+}
+
+nav {
+    border: 8px rgb(153, 151, 151) outset;
+    height: 51%;
+    width: 20%;
+    position: absolute;
+    top: 18%;
+}
+
+footer {
+    border: 8px rgb(153, 151, 151)groove;
+    height: 10%;
+    width: 98.5%;
+    position: absolute;
+    top: 93%;
+
+
+}
+
+main {
+    border: 8px rgb(153, 151, 151)outset;
+    height: 71%;
+    width: 77%;
+    position: absolute;
+    left: 22%;
+    top: 18%;
+   
+  
+}
+div{
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    bottom: 55%;
+    left: 10%;
+}
+p.hist{
+    color: whitesmoke;
+    text-decoration: dotted;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body.palmares{
+    background-image: url("./img/texturas-barcelona-min.jpg");
+    opacity: 0.9;
+    color: white;
+}
+table.palmares{
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+ 
+}
+td.nacionales{
+    width: 60%;
+  
+    
+}
+td.inter{
+    width: 60%;
+    
+   
+}
+img.plan{
+    height: 450px;
+    width: 400px;
+}
+h2.titulospalm{
+    text-shadow: rgb(248, 243, 243) 6px 6px 4px;
+}
+p.trofi{
+    text-transform: capitalize;
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+}
+p.num{
+    text-align: center;
+    font-weight: bold;
+}
+body.jugadores{
+    background-image: url("./img/fba2b81c88bb3d828a8cb7c25da1e418.jpg");
+}
+table.jugadores{
+    background-color: rgb(159, 159, 199);
+}
+
+h2.leyend{
+    color: rgb(190, 190, 49);
+    text-shadow: rgb(126, 139, 3) 7px 7px 5px;
+}
+td.ronal{
+    width: 330px;  
+}
+td.lio{
+    width: 330px;
+   
+}
+td.puyol{
+    width: 330px;
+   
+}
+td.videos{
+    width: 330px;
+    
+}
+img.jug{
+    width: 340px;
+    height: 320px;
+}
+video{
+    width: 220px;
+    height: 160px;
+}
+img.lewan{
+    height: 200px;
+    width: 250px;
+}
